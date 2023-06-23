@@ -1,0 +1,54 @@
+{
+    "nodes": [
+      {
+        "id": "Santiago\nPeña",
+        "title": "Presidente",
+        "height": 70,
+        "fill": {
+          "src": "data/imgs/SANTI colorado.jpg"
+        }
+      },
+      {
+        "id": "Horacio\nCartes",
+        "title": "tutor?",
+        "height": 50,
+        "fill": {
+          "src": "data/imgs/Cartes.png"
+        }
+      },
+      {
+        "id": "Enrique\nRiera",
+        "title": "Ministerio del interior",
+        "height": 25,
+        "fill": "#B70039"      },
+      {
+        "id": "Juan Carlos\nBaruja",
+        "title": "Ministro de Urbanismo,\nVivienda y Hábitat",
+        "height": 25,
+        "fill": "#B70039"
+      },
+      {
+        "id": "Ángel\nBarchini",
+        "title": "ministro de Justicia",
+        "height": 25,
+        "fill": "#B70039"
+      },
+      {
+        "id": "Óscar\nGonzález",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "ministro de Defensa Nacional"
+      }
+    ],
+
+    "edges": [
+      { "from": "Santiago\nPeña", "to": "Óscar\nGonzález" },
+      { "from": "Santiago\nPeña", "to": "Horacio\nCartes" },
+      { "from": "Horacio\nCartes", "to": "Santiago\nPeña" },
+      { "from": "Santiago\nPeña", "to": "Ángel\nBarchini" },
+      { "from": "Santiago\nPeña", "to": "Juan Carlos\nBaruja" },
+      { "from": "Santiago\nPeña", "to": "Enrique\nRiera" },
+      { "from": "Horacio\nCartes", "to": "Enrique\nRiera" },
+    ]
+  }
+  
