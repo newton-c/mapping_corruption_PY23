@@ -37,18 +37,21 @@
         "id": "Enrique\nRiera",
         "title": "Ministerio del interior",
         "height": 25,
-        "fill": "#B70039"      },
+        "fill": "#B70039" ,
+        "relacion": "gabinete"     },
       {
         "id": "Juan Carlos\nBaruja",
         "title": "Ministro de Urbanismo,\nVivienda y Hábitat",
         "height": 25,
-        "fill": "#B70039"
+        "fill": "#B70039",
+          "relacion": "gabinete"
       },
       {
         "id": "Ángel\nBarchini",
         "title": "ministro de Justicia",
         "height": 25,
-        "fill": "#B70039"
+        "fill": "#B70039",
+          "relacion": "gabinete"
       },
       {
         "id": "Arturo\nLuglietto",
@@ -60,31 +63,29 @@
         "id": "Óscar\nGonzález",
         "height": 25,
         "fill": "#B70039",
-        "title": "ministro de Defensa Nacional"
+        "title": "ministro de Defensa Nacional",
+          "relacion": "gabinete"
       },
       {
         "id": "Rubén Ramírez\nLezcano",
         "height": 25,
         "fill": "#B70039",
-        "title": "ministro de Relaciones Exteriores"
-      },
-      {
-        "id": "Óscar\nGonzález",
-        "height": 25,
-        "fill": "#B70039",
-        "title": "Ministerio de Defensa Nacional"
+        "title": "ministro de Relaciones Exteriores",
+          "relacion": "gabinete"
       },
       {
         "id": "Claudia\nCenturión",
         "height": 25,
         "fill": "#B70039",
-        "title": "Ministerio de Obras Públicas y Comunicaciones (MOPC)"
+        "title": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+          "relacion": "gabinete"
       },
       {
         "id": "Javier\nGiménez",
         "height": 25,
         "fill": "#B70039",
-        "title": "Ministerio de Industria y Comercio"
+        "title": "Ministerio de Industria y Comercio",
+          "relacion": "gabinete"
       },
       {
         "id": "Jiménez Gaona\ny Lima",
@@ -150,6 +151,8 @@
              "<span style='font-weight:bold'>{%title}</span>"
             );
 
+          // trying to adjust the edges
+          chart.edges().stroke("#BD0010")
           // customize hover text for edges
           chart.edges().tooltip().format("{%from} -> {%to}");
 
