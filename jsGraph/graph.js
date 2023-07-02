@@ -96,6 +96,13 @@
         "height": 20,
         "fill": "#5FA69B",
         "title": "Convicted Money Launderer"  
+      },
+      {
+        "id": "Rolando\nde Barros",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio del Ambiente y\nDesarrollo Sostenible",
+        "relation": "gabinete"
       }
     ],
 
@@ -119,7 +126,9 @@
       { "from": "Santiago\nPeña", "to": "Felipe\nGonzález" },
       { "from": "Horacio\nCartes", "to": "Carlos Fernández\nValdovinos" },
       { "from": "Horacio\nCartes", "to": "Ramón\nGonzález Daher" },
-      { "from": "Carlos Fernández\nValdovinos", "to": "Ramón\nGonzález Daher" }
+      { "from": "Carlos Fernández\nValdovinos", "to": "Ramón\nGonzález Daher" },
+      { "from": "Santiago\nPeña", "to": "Rolando\nde Barros" },
+      { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" }
 
     ]
   }
