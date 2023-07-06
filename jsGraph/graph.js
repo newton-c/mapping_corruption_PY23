@@ -103,6 +103,13 @@
         "fill": "#B70039",
         "title": "Ministerio del Ambiente y\nDesarrollo Sostenible",
         "relation": "gabinete"
+      },
+      {
+        "id": "Luis\nRamírez",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio de\nEducation y Ciencias",
+        "relacion": "gabinete"
       }
     ],
 
@@ -128,7 +135,8 @@
       { "from": "Horacio\nCartes", "to": "Ramón\nGonzález Daher" },
       { "from": "Carlos Fernández\nValdovinos", "to": "Ramón\nGonzález Daher" },
       { "from": "Santiago\nPeña", "to": "Rolando\nde Barros" },
-      { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" }
+      { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" },
+      { "from": "Santiago\nPeña", "to": "Luis\nRamírez"}
 
     ]
   }
