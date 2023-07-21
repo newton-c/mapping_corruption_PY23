@@ -110,6 +110,13 @@
         "fill": "#B70039",
         "title": "Ministerio de\nEducation y Ciencias",
         "relacion": "gabinete"
+      },
+      {
+        "id": "Tadeo\nRojas",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio de\nDesarollo Social",
+        "relacion": "gabinete"
       }
     ],
 
@@ -136,8 +143,9 @@
       { "from": "Carlos Fernández\nValdovinos", "to": "Ramón\nGonzález Daher" },
       { "from": "Santiago\nPeña", "to": "Rolando\nde Barros" },
       { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" },
-      { "from": "Santiago\nPeña", "to": "Luis\nRamírez"}
-
+      { "from": "Santiago\nPeña", "to": "Luis\nRamírez"},
+      { "from": "Santiago\nPeña", "to": "Tadeo\nRojas" },
+      { "from": "Horacio\nCartes", "to": "Tadeo\nRojas" }
     ]
   }
 
@@ -180,6 +188,8 @@
 
           // trying to adjust the edges
           chart.edges().stroke("#BD0010")
+          chart.edges().hovered().stroke("blue", 2)
+          chart.edges().selected().stroke("blue", 2)
           // customize hover text for edges
           chart.edges().tooltip().format("{%from} -> {%to}");
 
