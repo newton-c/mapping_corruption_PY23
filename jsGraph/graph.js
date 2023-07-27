@@ -85,7 +85,7 @@
         "relacion": "gabinete"
       },
       {
-        "id": "Felipe\nGonzález",
+        "id": "<s>Felipe\nGonzález</s>",
         "height": 25,
         "fill": "#B70039",
         "title": "Ministerio de Salud Pública y Bienestar Social",
