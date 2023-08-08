@@ -72,7 +72,7 @@
         "relacion": "gabinete"
       },
       {
-        "id": "Jiménez Gaona\ny Lima",
+        "id": "Ramón\nJiménez Gaona",
         "height": 20,
         "fill": "#5FA69B",
         "title": "Indited Business Owner"
@@ -85,7 +85,7 @@
         "relacion": "gabinete"
       },
       {
-        "id": "<s>Felipe\nGonzález</s>",
+        "id": "Felipe\nGonzález",
         "height": 25,
         "fill": "#B70039",
         "title": "Ministerio de Salud Pública y Bienestar Social",
@@ -112,10 +112,38 @@
         "relacion": "gabinete"
       },
       {
+        "id": "Walter\nGutiérrez",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio de la Niñez",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Mónica\nRecalbe",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio del Trabajo, Empleo\ny Seguridad Social (MTESS)",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Gustavo\nVillate",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Ministerio de Tecnologías de la\nInformación y Comunicación (MITIC)",
+        "relacion": "gabinete"
+      },
+      {
         "id": "Tadeo\nRojas",
         "height": 25,
         "fill": "#B70039",
         "title": "Ministerio de\nDesarollo Social",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "María Teresa\nBaran",
+        "height": 25,
+        "fill": "#B70039",
+        "title": "Salud Pública y Bienestar\nSocial (MSPBS)",
         "relacion": "gabinete"
       }
     ],
@@ -133,8 +161,8 @@
       { "from": "Santiago\nPeña", "to": "Claudia\nCenturión" },
       { "from": "Santiago\nPeña", "to": "Javier\nGiménez" },
       { "from": "Horacio\nCartes", "to": "Enrique\nRiera" },
-      { "from": "Horacio\nCartes", "to": "Jiménez Gaona\ny Lima" },
-      { "from": "Claudia\nCenturión", "to": "Jiménez Gaona\ny Lima" },
+      { "from": "Horacio\nCartes", "to": "Ramón\nJiménez Gaona" },
+      { "from": "Claudia\nCenturión", "to": "Ramón\nJiménez Gaona" },
       { "from": "Ángel\nBarchini", "to": "Arturo\nLuglietto" },
       { "from": "Santiago\nPeña", "to": "Carlos Fernández\nValdovinos" },
       { "from": "Santiago\nPeña", "to": "Felipe\nGonzález" },
@@ -145,7 +173,10 @@
       { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" },
       { "from": "Santiago\nPeña", "to": "Luis\nRamírez"},
       { "from": "Santiago\nPeña", "to": "Tadeo\nRojas" },
-      { "from": "Horacio\nCartes", "to": "Tadeo\nRojas" }
+      { "from": "Horacio\nCartes", "to": "Walter\nGutiérrez" },
+      { "from": "Santiago\nPeña", "to": "Mónica\nRecalbe" },
+      { "from": "Santiago\nPeña", "to": "Gustavo\nVillate" },
+      { "from": "Santiago\nPeña", "to": "María Teresa\nBaran" }
     ]
   }
 
