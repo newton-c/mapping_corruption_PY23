@@ -15,16 +15,34 @@
         width: 25px;
         border-radius: 50%;
         display: table;
-        margin-top: 10;
-        margin-left: 20
+        margin-right: 5;
+      }
+      .legend-text {
+        font-family: "Roboto";
+        color: #73858E;
+        text-align: left;
+      }
+      th {
+        padding-top: 10
       }
     </style>
   </head>
   <body>
-<div id ="legend" style="margin-top: 50;">
-  <span class="dot" style="background-color: #9C013A">
+<div id ="legend" style="margin-top: 50">
+ <table style="margin-left: 50;">
+  <tr>
+    <th>
+  <span class="dot" style="background-color: #B70039">
     <p></p></span>
-  <span class="dot" style="background-color: #78A49A"><p></p></span>
+  </th>
+  <th class="legend-text">Cabinet Member</th>
+    </tr>
+    <th>
+  <span class="dot" style="background-color: #5FA69B"><p></p></span>
+    </th>
+    <th class="legend-text"> Not a Cabinet Member </th>
+</tr>
+</table>
 </div>
     
     <div id="container"></div>

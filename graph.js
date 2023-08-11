@@ -196,7 +196,7 @@
           //var chart = anychart.graph(data);
 
           // set the title
-          chart.title("El gabinete de Peña");
+          //chart.title("El gabinete de Peña");
 
           // access nodes
           var nodes = chart.nodes();
@@ -218,6 +218,7 @@
           chart.nodes().labels().format("{%id}");
           chart.nodes().labels().fontSize(12);
           chart.nodes().labels().fontWeight(600);
+
 
           // customize hover text for nodes
           chart.nodes().tooltip().useHtml(true);
