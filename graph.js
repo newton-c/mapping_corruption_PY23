@@ -180,7 +180,7 @@
       { "from": "Horacio\nCartes", "to": "Rolando\nde Barros" },
       { "from": "Santiago\nPeña", "to": "Luis\nRamírez"},
       { "from": "Santiago\nPeña", "to": "Tadeo\nRojas" },
-      { "from": "Horacio\nCartes", "to": "Walter\nGutiérrez" },
+      { "from": "Santiago\nPeña", "to": "Walter\nGutiérrez" },
       { "from": "Santiago\nPeña", "to": "Mónica\nRecalbe" },
       { "from": "Santiago\nPeña", "to": "Gustavo\nVillate" },
       { "from": "Santiago\nPeña", "to": "María Teresa\nBaran" },
