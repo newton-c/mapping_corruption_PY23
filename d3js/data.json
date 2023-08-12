@@ -1,4 +1,4 @@
-var testData = {
+{
     "nodes": [
       {
         "id": "Santiago\nPeña",
@@ -185,3 +185,4 @@ var testData = {
       { "from": "Santiago\nPeña", "to": "María Teresa\nBaran" },
       { "from": "Horacio\nCartes", "to": "María Teresa\nBaran" },
     ]
+}
