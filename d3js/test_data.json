@@ -1,0 +1,117 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Santiago\nPeña",
+        "height": 70,
+        "fill": {
+          "src": "https://insightcrime.org/wp-content/uploads/2023/06/SANTI-colorado-scaled.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "B",
+        "height": 50,
+        "fill": {
+          "src": "https://insightcrime.org/wp-content/uploads/2023/06/Cartes.png"
+        }
+      },
+      {
+        "id": 3,
+        "name": "C",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 4,
+        "name": "D",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 5,
+        "name": "E",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 6,
+        "name": "F",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 7,
+        "name": "G",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 8,
+        "name": "H",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 9,
+        "name": "I",
+        "height": 25,
+        "fill": "#B70039" 
+      },
+      {
+        "id": 10,
+        "name": "J",
+        "height": 25,
+        "fill": "#B70039" 
+      }
+    ],
+    "links": [
+  
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 6
+      },
+  
+      {
+        "source": 2,
+        "target": 3
+      },
+              {
+        "source": 2,
+        "target": 7
+      }
+      ,
+  
+      {
+        "source": 3,
+        "target": 4
+      },
+       {
+        "source": 8,
+        "target": 3
+      }
+      ,
+      {
+        "source": 4,
+        "target": 5
+      }
+      ,
+  
+      {
+        "source": 4,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 10
+      }
+    ]
+  }
