@@ -170,6 +170,7 @@
       { "from": "Horacio\nCartes", "to": "Ramón\nJiménez Gaona" },
       { "from": "Claudia\nCenturión", "to": "Ramón\nJiménez Gaona" },
       { "from": "Ángel\nBarchini", "to": "Arturo\nLuglietto" },
+      { "from": "Horacio\nCartes", "to": "Ángel\nBarchini" },
       { "from": "Ángel\nBarchini", "to": "Ahmed\nHashem" },
       { "from": "Santiago\nPeña", "to": "Carlos Fernández\nValdovinos" },
       { "from": "Santiago\nPeña", "to": "Felipe\nGonzález" },
