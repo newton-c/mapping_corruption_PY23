@@ -1,0 +1,188 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Presidente",
+        "height": 70,
+        "fill": {
+          "src": "https://insightcrime.org/wp-content/uploads/2023/06/SANTI-colorado-scaled.jpg"
+        }
+      },
+      {
+        "id": "Horacio\nCartes",
+        "name": "Tutargetr",
+        "height": 50,
+        "fill": {
+          "src": "https://insightcrime.org/wp-content/uploads/2023/06/Cartes.png"
+        }
+      },
+      {
+        "id": "Enrique\nRiera",
+        "name": "Ministerio del interior",
+        "height": 25,
+        "fill": "#B70039" ,
+        "relacion": "gabinete"     },
+      {
+        "id": "Juan Carlos\nBaruja",
+        "name": "Ministro de Urbanismo,\nVivienda y Hábitat",
+        "height": 25,
+        "fill": "#B70039",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Ángel\nBarchini",
+        "name": "ministro de Justicia",
+        "height": 25,
+        "fill": "#B70039",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Arturo\nLugliettarget",
+        "name": "narcotraficante",
+        "height": 20,
+        "fill": "#5FA69B"
+      },
+      {
+        "id": "Ahmed\nHashem",
+        "name": "narcotraficante",
+        "height": 20,
+        "fill": "#5FA69B"
+      },
+      {
+        "id": "Óscar\nGonzález",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "ministro de Defensa Nacional",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Rubén Ramírez\nLezcano",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "ministro de Relaciones Exteriores",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Claudia\nCenturión",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Javier\nGiménez",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de Industria y Comercio",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Ramón\nJiménez Gaona",
+        "height": 20,
+        "fill": "#5FA69B",
+        "name": "Indited Business Owner"
+      },
+      {
+        "id": "Carlos Fernández\nValdovinos",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de Hacienda",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Felipe\nGonzález",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de Salud Pública y Bienestar Social",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Ramón\nGonzález Daher",
+        "height": 20,
+        "fill": "#5FA69B",
+        "name": "Convicted Money Launderer"  
+      },
+      {
+        "id": "Rolando\nde Barros",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio del Ambiente y\nDesarrollo Sostenible",
+        "relation": "gabinete"
+      },
+      {
+        "id": "Luis\nRamírez",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de\nEducation y Ciencias",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Walter\nGutiérrez",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de la Niñez",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Mónica\nRecalbe",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio del Trabajo, Empleo\ny Seguridad Social (MTESS)",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Gustavo\nVillate",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de Tecnologías de la\nInformación y Comunicación (MITIC)",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "Tadeo\nRojas",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Ministerio de\nDesarollo Social",
+        "relacion": "gabinete"
+      },
+      {
+        "id": "María Teresa\nBaran",
+        "height": 25,
+        "fill": "#B70039",
+        "name": "Salud Pública y Bienestar\nSocial (MSPBS)",
+        "relacion": "gabinete"
+      }
+    ],
+
+    "links": [
+      { "source": "Santiago\nPeña", "target": "Óscar\nGonzález" },
+      { "source": "Santiago\nPeña", "target": "Horacio\nCartes" },
+      { "source": "Horacio\nCartes", "target": "Santiago\nPeña" },
+      { "source": "Santiago\nPeña", "target": "Rubén Ramírez\nLezcano" },
+      { "source": "Santiago\nPeña", "target": "Ángel\nBarchini" },
+      { "source": "Santiago\nPeña", "target": "Juan Carlos\nBaruja" },
+      { "source": "Horacio\nCartes", "target": "Juan Carlos\nBaruja" },
+      { "source": "Santiago\nPeña", "target": "Enrique\nRiera" },
+      { "source": "Santiago\nPeña", "target": "Óscar\nGonzález" },
+      { "source": "Santiago\nPeña", "target": "Claudia\nCenturión" },
+      { "source": "Santiago\nPeña", "target": "Javier\nGiménez" },
+      { "source": "Horacio\nCartes", "target": "Enrique\nRiera" },
+      { "source": "Horacio\nCartes", "target": "Ramón\nJiménez Gaona" },
+      { "source": "Claudia\nCenturión", "target": "Ramón\nJiménez Gaona" },
+      { "source": "Ángel\nBarchini", "target": "Arturo\nLugliettarget" },
+      { "source": "Ángel\nBarchini", "target": "Ahmed\nHashem" },
+      { "source": "Santiago\nPeña", "target": "Carlos Fernández\nValdovinos" },
+      { "source": "Santiago\nPeña", "target": "Felipe\nGonzález" },
+      { "source": "Horacio\nCartes", "target": "Carlos Fernández\nValdovinos" },
+      { "source": "Horacio\nCartes", "target": "Ramón\nGonzález Daher" },
+      { "source": "Carlos Fernández\nValdovinos", "target": "Ramón\nGonzález Daher" },
+      { "source": "Santiago\nPeña", "target": "Rolando\nde Barros" },
+      { "source": "Horacio\nCartes", "target": "Rolando\nde Barros" },
+      { "source": "Santiago\nPeña", "target": "Luis\nRamírez"},
+      { "source": "Santiago\nPeña", "target": "Tadeo\nRojas" },
+      { "source": "Santiago\nPeña", "target": "Walter\nGutiérrez" },
+      { "source": "Santiago\nPeña", "target": "Mónica\nRecalbe" },
+      { "source": "Santiago\nPeña", "target": "Gustavo\nVillate" },
+      { "source": "Santiago\nPeña", "target": "María Teresa\nBaran" },
+      { "source": "Horacio\nCartes", "target": "María Teresa\nBaran" },
+    ]
+}

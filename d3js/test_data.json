@@ -3,6 +3,7 @@
       {
         "id": 1,
         "name": "Santiago\nPeña",
+	      "title": "President",
         "height": 70,
         "fill": {
           "src": "https://insightcrime.org/wp-content/uploads/2023/06/SANTI-colorado-scaled.jpg"
@@ -10,7 +11,8 @@
       },
       {
         "id": 2,
-        "name": "B",
+        "name": "Horacio\nCartes",
+        "title": "Tutor",
         "height": 50,
         "fill": {
           "src": "https://insightcrime.org/wp-content/uploads/2023/06/Cartes.png"
@@ -18,100 +20,72 @@
       },
       {
         "id": 3,
-        "name": "C",
+        "name":"Enrique\nRiera",
+        "title": "Ministerio del interior",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 4,
-        "name": "D",
+        "name": "Juan Carlos\nBaruja",
+        "title": "Ministro de Urbanismo,\nVivienda y Hábitat",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 5,
-        "name": "E",
+        "name": "Ángel\nBarchini",
+        "title": "ministro de Justicia",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 6,
-        "name": "F",
+        "name": "Arturo\nLuglietto",
+        "title": "narcotraficante",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 7,
-        "name": "G",
+        "name": "Ahmed\nHashem",
+        "title": "narcotraficante",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 8,
-        "name": "H",
+        "name": "Óscar\nGonzález",
+        "title": "ministro de Defensa Nacional",
+        "relacion": "gabinete",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 9,
-        "name": "I",
+        "name": "Rubén Ramírez\nLezcano",
+	      "title": "ministro de Relaciones Exteriores",
         "height": 25,
         "fill": "#B70039" 
       },
       {
         "id": 10,
-        "name": "J",
+        "name": "Claudia\nCenturión",
+        "title": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
         "height": 25,
         "fill": "#B70039" 
       }
     ],
     "links": [
-  
-      {
-        "source": 1,
-        "target": 2
-      },
-      {
-        "source": 1,
-        "target": 5
-      },
-      {
-        "source": 1,
-        "target": 6
-      },
-  
-      {
-        "source": 2,
-        "target": 3
-      },
-              {
-        "source": 2,
-        "target": 7
-      }
-      ,
-  
-      {
-        "source": 3,
-        "target": 4
-      },
-       {
-        "source": 8,
-        "target": 3
-      }
-      ,
-      {
-        "source": 4,
-        "target": 5
-      }
-      ,
-  
-      {
-        "source": 4,
-        "target": 9
-      },
-      {
-        "source": 5,
-        "target": 10
-      }
+      { "source": 1, "target": 8 },
+      { "source": 1, "target": 2 },
+      { "source": 2, "target": 1 },
+      { "source": 1, "target": 9 },
+      { "source": 1, "target": 5 },
+      { "source": 1, "target": 4 },
+      { "source": 2, "target": 4 },
+      { "source": 1, "target": 3 },
+      { "source": 1, "target": 8 },
+      { "source": 1, "target": 10 }
     ]
   }

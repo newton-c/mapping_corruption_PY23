@@ -24,7 +24,9 @@
       .attr("transform",
             `translate(${margin.left}, ${margin.top})`);
     
+    //d3.json("https://raw.githubusercontent.com/newton-c/mapping_corruption_PY23/main/d3js/test_data.json").then( function( data) {
     d3.json("test_data.json").then( function( data) {
+    //d3.json("data2.json").then( function( data) {
     
       // Initialize the links
       const link = svg
@@ -63,6 +65,13 @@
              .attr("cx", function (d) { return d.x+6; })
              .attr("cy", function(d) { return d.y-6; });
       }
+
+      nodeEnter.append("svg:image")
+            .attr('x',9)
+            .attr('y',12)
+            .attr('width', 20)
+            .attr('height', 24)
+            .attr("xlink:href", "https://insightcrime.org/wp-content/uploads/2023/06/Cartes.png")
     
     });
     </script>
